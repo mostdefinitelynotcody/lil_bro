@@ -1,0 +1,1 @@
+Initialize the server with the command, python dash m lil underscore bro. Then, check the logs for warnings, errors, or odd timestamps at 09 colon 30.

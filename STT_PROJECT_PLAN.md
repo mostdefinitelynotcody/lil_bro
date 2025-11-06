@@ -268,6 +268,7 @@ stt-editor/
 **Tasks**:
 - [ ] Configuration file (model selection, shortcuts, etc.)
 - [ ] Audio level visualization
+- [ ] Audio input device selector (CLI toggle or menu)
 - [ ] Confidence indicators
 - [ ] Multiple STT engine support (Whisper/Vosk)
 - [ ] Save/load functionality

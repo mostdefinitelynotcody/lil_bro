@@ -1,13 +1,5 @@
 # STT Editor Project - Quick Start Guide
 
-## Project Name Suggestions
-- `stt-editor` (simple, descriptive)
-- `live-transcribe` (descriptive of main feature)
-- `voice-editor` (emphasizes voice input)
-- `transcribe-pro` (professional sounding)
-
-## Recommended Project Location
-
 **Option 1: Separate Repository** (Recommended)
 ```
 ~/CsProjects/stt-editor/
@@ -17,17 +9,7 @@ we have decided to name the stt-editor lil_bro
 - Can be used in multiple projects
 - Easy to version control separately
 
-**Option 2: Subdirectory in GlassSpector**
-```
-~/CsProjects/GlassSpector/stt-editor/
-```
-- Close to GlassSpector for easy integration
-- Still reusable
-- Easier to test integration
-
 **Recommendation**: Separate repository for maximum reusability.
-
----
 
 ## Technology Recommendations
 
@@ -36,7 +18,7 @@ we have decided to name the stt-editor lil_bro
 - **Install**: `pip install faster-whisper`
 - **Model**: Start with `base` (good accuracy, reasonable speed)
 - **Alternative**: `small` for better accuracy, `tiny` for faster
-
+(we will test faster whisper before we make a choice)
 ### Text Editor: **Rich + prompt_toolkit** (Recommended)
 - **Why**: Powerful, flexible, good documentation
 - **Install**: `pip install rich prompt-toolkit`
@@ -54,6 +36,7 @@ we have decided to name the stt-editor lil_bro
 
 Start with these core features, then expand:
 
+0. **Test files
 1. **Basic STT** - Whisper transcribes microphone input
 2. **Simple Display** - Text appears in terminal as it's transcribed
 3. **Keyboard Editing** - Can type and edit text
@@ -71,10 +54,11 @@ Start with these core features, then expand:
 ## Getting Started Checklist
 
 ### Phase 1: Setup
-- [ ] Create project directory
-- [ ] Initialize git repository
-- [ ] Create `requirements.txt`
-- [ ] Set up virtual environment
+- [v] Create project directory
+- [v] Initialize git repository
+- [...] Create `requirements.txt`
+- [...](conda lil_bro) Set up virtual environment
+    Note we need to be using python 3.11 for wheels when working with faster wisperer.
 - [ ] Install dependencies
 - [ ] Create basic project structure
 

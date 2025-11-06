@@ -1,0 +1,84 @@
+{
+  "samples": [
+    {
+      "id": "20251106-155936_punctuation_practice",
+      "script_id": "punctuation_practice",
+      "title": "Punctuation Practice",
+      "audio_path": "tests/fixtures/audio/20251106-155936_punctuation_practice.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-155936_punctuation_practice.txt",
+      "samplerate": 16000,
+      "duration_seconds": 12.0,
+      "recorded_at": "20251106-155936"
+    },
+    {
+      "id": "20251106-160028_numbers_and_dates",
+      "script_id": "numbers_and_dates",
+      "title": "Numbers and Dates",
+      "audio_path": "tests/fixtures/audio/20251106-160028_numbers_and_dates.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-160028_numbers_and_dates.txt",
+      "samplerate": 16000,
+      "duration_seconds": 12.0,
+      "recorded_at": "20251106-160028"
+    },
+    {
+      "id": "20251106-161025_punctuation_practice",
+      "script_id": "punctuation_practice",
+      "title": "Punctuation Practice",
+      "audio_path": "tests/fixtures/audio/20251106-161025_punctuation_practice.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-161025_punctuation_practice.txt",
+      "samplerate": 16000,
+      "duration_seconds": 14.82,
+      "recorded_at": "20251106-161025"
+    },
+    {
+      "id": "20251106-161109_numbers_and_dates",
+      "script_id": "numbers_and_dates",
+      "title": "Numbers and Dates",
+      "audio_path": "tests/fixtures/audio/20251106-161109_numbers_and_dates.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-161109_numbers_and_dates.txt",
+      "samplerate": 16000,
+      "duration_seconds": 16.56,
+      "recorded_at": "20251106-161109"
+    },
+    {
+      "id": "20251106-161138_homophone_challenge",
+      "script_id": "homophone_challenge",
+      "title": "Homophone Challenge",
+      "audio_path": "tests/fixtures/audio/20251106-161138_homophone_challenge.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-161138_homophone_challenge.txt",
+      "samplerate": 16000,
+      "duration_seconds": 8.52,
+      "recorded_at": "20251106-161138"
+    },
+    {
+      "id": "20251106-161207_technical_snippet",
+      "script_id": "technical_snippet",
+      "title": "Technical Snippet",
+      "audio_path": "tests/fixtures/audio/20251106-161207_technical_snippet.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-161207_technical_snippet.txt",
+      "samplerate": 16000,
+      "duration_seconds": 17.49,
+      "recorded_at": "20251106-161207"
+    },
+    {
+      "id": "20251106-161235_conversational_mix",
+      "script_id": "conversational_mix",
+      "title": "Conversational Mix",
+      "audio_path": "tests/fixtures/audio/20251106-161235_conversational_mix.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-161235_conversational_mix.txt",
+      "samplerate": 16000,
+      "duration_seconds": 13.36,
+      "recorded_at": "20251106-161235"
+    },
+    {
+      "id": "20251106-161807_conversational_mix",
+      "script_id": "conversational_mix",
+      "title": "Conversational Mix",
+      "audio_path": "tests/fixtures/audio/20251106-161807_conversational_mix.wav",
+      "transcript_path": "tests/fixtures/transcripts/20251106-161807_conversational_mix.txt",
+      "samplerate": 16000,
+      "duration_seconds": 11.72,
+      "recorded_at": "20251106-161807"
+    }
+  ]
+}

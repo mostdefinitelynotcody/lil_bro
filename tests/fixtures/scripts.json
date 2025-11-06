@@ -1,0 +1,28 @@
+[
+  {
+    "id": "punctuation_practice",
+    "title": "Punctuation Practice",
+    "text": "Hello, my name is Jamie. I'm testing a microphone—does it catch commas, dashes, and ellipses? Let's find out... Now, end!"
+  },
+  {
+    "id": "numbers_and_dates",
+    "title": "Numbers and Dates",
+    "text": "On July 4th, 2026, we expected two hundred and fifty guests, but only 197 arrived. Still, the 3.14 meter pie disappeared in under five minutes."
+  },
+  {
+    "id": "homophone_challenge",
+    "title": "Homophone Challenge",
+    "text": "They're going to their favorite park, where the wind will wear down the weathered rock while we wait right here."
+  },
+  {
+    "id": "technical_snippet",
+    "title": "Technical Snippet",
+    "text": "Initialize the server with the command, python dash m lil underscore bro. Then, check the logs for warnings, errors, or odd timestamps at 09 colon 30."
+  },
+  {
+    "id": "conversational_mix",
+    "title": "Conversational Mix",
+    "text": "Hey, did you hear the latest update? Apparently, the new version ships tomorrow, but only if QA signs off before noon; otherwise, it's Monday."
+  }
+]
+
