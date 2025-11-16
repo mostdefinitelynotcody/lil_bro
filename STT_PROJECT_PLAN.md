@@ -38,6 +38,7 @@ A standalone, high-quality speech-to-text (STT) application with:
 ### 4. LLM Cleanup Module
 - Trigger via keyboard shortcut or voice keyword
 - Sends current text to LLM with context
+- Modular provider interface (default to Ollama but swappable)
 - LLM fixes common STT errors:
   - Homophones (there/their/they're)
   - Punctuation
@@ -99,7 +100,7 @@ A standalone, high-quality speech-to-text (STT) application with:
   - OpenAI API (cloud)
   - Gemini API (cloud)
   - Local model via transformers
-- **Recommendation**: Ollama for local, privacy-focused cleanup
+- **Recommendation**: Ollama for local, privacy-focused cleanup (behind a modular provider interface)
 
 ### Audio Input
 - **Library**: `sounddevice` or `pyaudio`
@@ -251,6 +252,7 @@ stt-editor/
 
 **Tasks**:
 - [ ] Set up LLM integration (Ollama recommended)
+- [ ] Implement modular LLM provider interface (Ollama default implementation)
 - [ ] Create cleanup prompt templates
 - [ ] Implement cleanup trigger (keyboard shortcut + voice keyword)
 - [ ] Send text to LLM with context
