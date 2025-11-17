@@ -155,32 +155,32 @@ stt-editor/
 
 ```
 ┌─────────────────┐
-│  Audio Input    │
-│  (Microphone)   │
+│  Audio Input        │
+│  (Microphone)       │
 └────────┬────────┘
-         │
-         ▼
-┌─────────────────┐
-│  STT Engine     │
-│  (Whisper/Vosk) │
-└────────┬────────┘
+           │
+           ▼
+┌───────────────┐
+│  STT Engine      │
+│  (Whisper/Vosk)  │
+└──────┬────────┘
          │
          ▼
 ┌─────────────────┐      ┌─────────────────┐
-│  Text Buffer    │◄─────┤  Keyboard Input │
-│  (Thread-safe)  │      │  (Editing)      │
+│  Text Buffer        │◄───┤  Keyboard Input     │
+│  (Thread-safe)      │     │  (Editing)          │
 └────────┬────────┘      └─────────────────┘
-         │
-         ▼
+           │
+           ▼
 ┌─────────────────┐
-│  CLI Editor     │
-│  (Display)      │
+│  CLI Editor         │
+│  (Display)          │
 └────────┬────────┘
-         │
-         ▼
+           │
+           ▼
 ┌─────────────────┐
-│  LLM Cleanup    │
-│  (On demand)    │
+│  LLM Cleanup        │
+│  (On demand)        │
 └─────────────────┘
 ```
 
